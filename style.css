@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: Arial ;
     background-color:rgb(69, 75, 165) ;
 }
@@ -30,4 +30,166 @@ font-style: italic;}
 #img {
 
     float: right;
+} */
+
+
+/* lab8b */
+
+body{
+    background-color: rgb(129, 99, 128);
+        text-align: center;
+        margin: 0;
+}
+h1,h2,legend,button{
+    font-family: 'Orbitron', sans-serif; ;
+}
+h2{
+    color:rgb(224, 215, 208);
+    font-size: 30px;
+    
+}
+
+main{
+    height: fit-content;
+}
+
+ #loctable td, #loctable th{
+    border: 2px solid black;
+    padding: 5px 20px 5px 20px ;
+    font-size: 20px;
+}
+#loctable{
+    padding-top: 40px;
+}
+table{
+    display: inline-block;
+    border-collapse: collapse;
+}
+#locations p, #about p{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+#products img {
+    border: 1px solid black;
+    margin: 50px;
+    display: inline-block;
+    width: 200px;
+}
+footer p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    display: inline-block;
+    
+}
+img{
+    width: 200px;
+    display: inline-block;
+    align-items: center;
+}
+
+
+.stick {
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+header{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 20px darkgrey;
+}
+footer{
+    background-color: whitesmoke;
+    box-shadow: 2px 2px 20px darkgrey;
+    bottom: 0px;
+    height: 80px;
+    
+    
+}
+header nav{
+    text-align: left;
+
+}
+nav div {
+    vertical-align: middle;
+    display: inline-block;
+    width:60%;
+    font-size: 20px;
+}
+nav a{
+    display: inline-block;
+    width:20%;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+
+}
+nav h1{
+    display: inline-block;
+    margin-top: 0px;
+    width: 30%;
+    font-size: 35px;
+    padding-top: 20px;
+    text-align: left;
+    color:rgb(65, 35, 83)
+
+}
+nav img {
+    width: 120px; 
+}
+section{
+    padding: 10%;
+    padding-top: 40px;
+}
+
+
+#mainid{
+      display: inline-block;
+      border: 1px solid black;
+      border-collapse: collapse;
+      margin: 0;
+      margin-top: 70px;
+      width: 70%;
+
+  }
+  #mainid tr:nth-child(even) {background-color: #f2f2f2;}
+
+  #mainid th,#mainid td {
+    text-align: center;
+    width: 80px;
+    height: 40px;
+    border: 2px solid black;
+   } 
+
+
+  #sales section{
+    padding: 5%;
+    padding-top: 40px;
+}
+button{
+    background-color: bisque;
+    color: black;
+    font-weight: 700;
+    border-radius: 20px;
+    font-size: 25px;
+    box-shadow: #f1f1f1;
+    padding: 1%;
+}
+
+fieldset{
+    display: inline-block;
+    width: fit-content;
+}
+
+#tableForm td{
+    text-align: left;
+    
+}
+    
+label, input{
+   font-size: 17px; 
+   margin: 2px;
 }
