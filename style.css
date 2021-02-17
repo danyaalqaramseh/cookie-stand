@@ -108,6 +108,17 @@ footer{
     
     
 }
+#h2sales{
+
+    display: inline-block;
+    width:20%;
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: bisque;
+
+
+}
 header nav{
     text-align: left;
 
@@ -192,4 +203,14 @@ fieldset{
 label, input{
    font-size: 17px; 
    margin: 2px;
+}
+#body {
+
+    background-color: rgb(129, 99, 128);
+    text-align: center;
+    margin: 0;
+}
+header{
+
+
 }

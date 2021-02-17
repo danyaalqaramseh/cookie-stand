@@ -7,10 +7,67 @@
  <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='utf-8'>
     <title>sales</title>
+    <link rel="stylesheet" href="style.css">
     
-<body>
-    <h2>We Are Working On The Page</h2>
+<body id="body">
+    <!-- <header id="header"> -->
+        <header class="stick">
+            <nav>
+                <img src="img/salmon.png" alt="salamon">
+                <h1>Salmon cookies</h1>
+                <div>
+                    <a href="#Form">Form</a>
+                    <a href="#result">Results</a>
+                    <a href="index.html">Home</a>
+                </div>
+            </nav>
+        </header>
+    <!-- </header> -->
+    <h2 id="h2sales">Salmon Cookies Sales </h2>
+    <main id="sales">
+
+        <section>
+            <a href="index.html"><button> Back to Main Page </button>
+            </a>
+        </section>
+        <section id="Form">
+            <form id="myForm">
+                <fieldset>
+                    <legend>Add a Branch!!</legend>
+                    <table id="tableForm">
+                        <tbody>
+                            <tr>
+                                <td><label for="branchName">Choose a Branch</label></td>
+                                <td><input id="branchName" type="text" name="branchName" placeholder="Branch Name" required> </td>
+                            </tr>
+                            <tr>
+                                <td><label for="minCustPerH">Min</label></td>
+                                <td><input id="minCustPerH" type="number" name="minCustPerH" placeholder="Min Customer/Hr" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="maxCusPerH">Max</label></td>
+                                <td><input id="maxCusPerH" type="number" name="maxCusPerH" placeholder="Max Customer/Hr" required></td>
+                            </tr>
+                            <tr>
+                                <td><label for="cookeisPerHour">Avarege Cookeis</label></td>
+                                <td><input id="cookeisPerHour" type="number" step="any" name="cookeisPerHour" placeholder="Enter Average Cookeis/Hr" required></td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td id="lastTd"><input type="submit" value="Confirm"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </fieldset>
+            </form>
+        </section>
+        <section id="result">
+            <table id="mainid">
+            </table>
+        </section>
+    </main>
 </body>
+<script src='app.js'></script>
+
 </html>
